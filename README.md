@@ -1,6 +1,6 @@
 # Diceware password generator
 
-Diceware password generator in Python, in one tweet. Because I don't have dice. Uses "alernative Beale" dictionary.
+Diceware password generator in Python, fits in one tweet. Because I have no dice. Uses "alernative Beale" dictionary.
 
 ```bash
 git clone https://github.com/shamrin/diceware.git
