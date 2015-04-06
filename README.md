@@ -12,10 +12,10 @@ For example:
 
 ```
 $ ./generate
- cleft cam synod lacy yr wok
+cleft cam synod lacy yr wok
 ```
 
-### Related
+### Links
 
 * [Diceware passphrase home page](www.diceware.com)
 * [alternative Beale list](http://world.std.com/~reinhold/beale.wordlist.asc)
