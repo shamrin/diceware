@@ -2,7 +2,6 @@
 # Diceware password generator in Python, in one tweet.
 # (words file is http://world.std.com/~reinhold/beale.wordlist.asc)
 # Because I have no dice:
-import random, os
-path = os.path.dirname(os.path.realpath(__file__))
-w = [s.split()[1] for s in open(os.path.join(path, 'words')) if s[0] in '123456']
+import random, sys
+w = [s.split()[1] for s in open(sys.path[0] + '/words')]
 for i in range(5): print random.SystemRandom().choice(w),
