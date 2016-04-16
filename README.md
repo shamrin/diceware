@@ -17,5 +17,5 @@ cleft cam synod lacy yr wok
 
 ### Links
 
-* [Diceware passphrase home page](www.diceware.com)
+* [Diceware passphrase home page](http://www.diceware.com)
 * [Alternative Beale list](http://world.std.com/~reinhold/beale.wordlist.asc)
