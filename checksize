@@ -5,6 +5,6 @@ import sys
 MAX = 140
 count = sum(len(line) for line in open('generate') if not line.startswith('#'))
 if count > MAX:
-    sys.exit('Too large: ' + str(count) + ' characters')
+    sys.exit('Too large: ' + str(count) + ' characters (%d extra)' % (count - MAX))
 else:
-    print 'All is good, only', count, 'characters'
+    print 'All is good, only', count, 'characters (%d left)' % (MAX - count)
