@@ -3,5 +3,5 @@
 # (words file is https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)
 # Because I have no dice:
 import random, sys
-w = [s.split()[1] for s in open(sys.path[0] + '/words')]
-for i in range(5): print random.SystemRandom().choice(w),
+w = [s.split()[1] for s in open(sys.path[0]+'/words')]
+print '-'.join(random.SystemRandom().choice(w) for i in range(5))

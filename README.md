@@ -12,7 +12,7 @@ For example:
 
 ```
 $ ./generate
-panoramic nectar precut smith banana handclap
+panoramic-nectar-precut-smith-banana
 ```
 
 ### Links
