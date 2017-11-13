@@ -11,7 +11,7 @@ cd diceware
 For example:
 
 ```
-$ ./generate
+$ ./passphrase
 panoramic-nectar-precut-smith-banana
 ```
 
