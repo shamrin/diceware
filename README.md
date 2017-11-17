@@ -5,7 +5,7 @@ Diceware password generator in Python, fits in one tweet. Because I have no dice
 ```bash
 git clone https://github.com/shamrin/diceware.git
 cd diceware
-./generate
+./passphrase
 ```
 
 For example:
